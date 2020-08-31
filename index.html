@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login-page.css">		
+  <script defer src="loginpage.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="error-container">
+      <p id="error-message" class="show-error">Invalid username <span class="show-error-msg">and/or password</span></p>
+    </div>
+    <form class="login" id="login-form">
+      <p class="title">Log in</p>
+      <input type="text" id="username-field" placeholder="Username" name="username" autofocus />
+      <i class="fa fa-user"></i>
+      <input type="password" id="password-field" name="password" placeholder="Password" />
+      <i class="fa fa-key"></i>
+      <button type="submit" id="submit">
+        <i class="spinner"></i>
+        <span class="state">Log in</span>
+      </button>
+    </form>
+    <footer>
+      <h1><a href="SpecRunner.html" target="_blank">Check the unit tests</a></h1></footer>
+    </p>
+  </div>
+</body>
+
+</html>
